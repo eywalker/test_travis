@@ -7,6 +7,6 @@ install:
 - sudo apt-get install -y vim
 script:
 - docker build -t eywalker/test .
-
 notifications:
-  slack: cajal:mHo9XEMwmsRXg9yCbkiVbI5h
+  slack:
+    secure: QDiMqKUfRXqvWKIB/SP4cQh5BbEWIGx8wqR586xWlc5rqLuNkbhGOoKq1ZvlhaKsT+qMxmBkDdqxYOjqflB3b8m1mFB8s1PtGEtidT56+KKRzGl9/464/9s0n7sck0oHvPFVW3Cnv3fHFNS3CgUFiO/gSF0iRtjvuuNsczaEyoIOXs8Q4awpLodCcagI3KNdwINu+WyRoKy6NxzhBLvTSiHnTRPmXG7HskFzCFn4l52l3wj3PLnuiPavxc4/C5DnyUuuACLYAwVnIjG4P6HELO0hgWxxW3TH6h+v1AoZJgo1ZffycdriPz8qXm5+mhyNh8nJkaKsS/SlQYAfNZv2hner9hoNkvLLnM10RzH+1BWmwsr3XVuCPdFP7EsJUI2bQ75Fw7imMd4QDO6L9k1HCeDew1Imqt/a9SBAvDPNDFn3L8+/QyxIUsRUOqA3sa9yD4dA+g4YksIouIPaNEI80qMeFe2wIvfByFWA1112f0PJqGFPE5FVquW+HLLGp5EXdM94vznYyHkqsvM3Lb+sMkZta3pUMUCBNS7/on5+lXJZ9sUzZvYhC697fV++9XHU2SelxSDepAu8sj4ZqohuXbwF4t/PmusdPk5w948bm0RV7X7AGAE/8yjmizdobmBRajm6Xt6U0QKU8zU5qhcL1gq/EqFc/Ii7ZldMCWQek6c=
