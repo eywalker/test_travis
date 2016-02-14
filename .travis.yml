@@ -8,3 +8,6 @@ services:
 install:
   - sudo apt-get update
   - sudo apt-get install -y vim
+
+script:
+  - echo 'Hello World!'
