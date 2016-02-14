@@ -5,5 +5,6 @@ language: python
 services:
   - docker
 
-install:
-  - apt-get install vim
+before_install:
+  - apt-get update
+  - apt-get install -y vim
