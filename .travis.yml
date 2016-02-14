@@ -1,13 +1,13 @@
 sudo: required
-
 language: python
-
 services:
-  - docker
-
+- docker
 install:
-  - sudo apt-get update
-  - sudo apt-get install -y vim
-
+- sudo apt-get update
+- sudo apt-get install -y vim
 script:
-  - docker build -t eywalker/test .
+- docker build -t eywalker/test .
+
+notifications:
+  slack:
+    secure: Op+um/kTZ2BLLV7ONUobPl1sHOGojrhpZZ8i4Mlk0BVZwBSNe6LOwk3ZhlHrzUcAqhtP4Y7Hjvq68RaAino7lmGgXp+zVI1SuyFFVnwFqXlFTzfCYD/KpEtaFMSAWijD4jwS+Lfihk1EXHYRgLtyrsI8PlqEzdsz4krPT8Cm4pm1ExINpXZv9QMUhftZs5cSUWmdv1p2XNhx0ASK+skRm8wVa/RmSBMKYPAG71WbAi8pvrbUKIZw4NbQSowX8HUJ+b1ddvaFvnrGOSMArSyXPXGtmcrgjP4Ug0LV6bwYFyTuZKcbZiEfa/upbIn8GXYGPe4+bEB+B/0dOgVI9Nq4V/TyKeaNF7xD7ecznEf6wdPvLBIby1BxHVYG7kcr35XI0LmjHgyoo1GleTWQGuOu9/9Fbqa9c4OTSZg+j89sMnhZH2xCH0QjLFV/e+4eChCe71oxhITcCWOGXn1iyywQhvZeMbXHqn2cLMQHaqzBz5AwgXW6WLwvpT8htsiB1rE7RG3u0clf9d79vlT5hygjX6qpIKYG9QScVE3punZd/vzS9rNp8lLFJOZPbfYCVwg+0mTGdoUZ4rtskLX7kLXWNBDW16hLNV/Sb9m7DtnsLGN4BB3rII946ue2itfNzgAVkTy+bkUwL/Rbq1YL8F5Ol5R4siT+AEHOSxsX0kQKJrw=
